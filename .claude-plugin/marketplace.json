@@ -1,14 +1,14 @@
 {
     "name": "tmorrow_ai",
     "version": "1.0.0",
-    "description": "Plugin marketplace for Claude Cowork and Claude Code byTyler Morrow",
-    "author": {
+    "description": "Plugin marketplace for Claude Cowork and Claude Code by Tyler Morrow",
+    "owner": {
         "name": "Tyler Morrow"
     },
     "plugins": [
         {
             "name": "data",
-            "path": "data",
+            "source": ".",
             "description": "Write SQL, explore datasets, and generate insights faster. Build visualizations and dashboards, and turn raw data into clear stories for stakeholders."
         }
     ]
